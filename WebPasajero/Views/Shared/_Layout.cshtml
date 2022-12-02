@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/css/StyleSheet.css">
+
+
+</head>
+<body>
+    <div class="header">
+        <div class="caja1">
+            <img>
+        </div>
+        <div class="caja2"></div>
+
+    </div>
+    <div id="contentMain" >
+        <div class="contentMainCaja1"></div>
+        <div class="contentMainCaja2"> 
+            <div id="contentMainCaja2_5">
+                <div id="menu">
+
+                    <div></div>
+                </div>
+                @RenderBody()
+            </div>
+            <div id="contentMainCaja2_6">
+                  
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
